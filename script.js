@@ -9,10 +9,10 @@ let w = ctx.canvas.width;
 let h = ctx.canvas.height;
 
 let points = [
-	GetRandomPosition(w, h),
-	GetRandomPosition(w, h),
-	GetRandomPosition(w, h),
-	GetRandomPosition(w, h)
+	[183, 74],
+	[213, 338],
+	[460, 123],
+	[586, 242]
 ]
 
 function GetRandomPosition(width, height){
